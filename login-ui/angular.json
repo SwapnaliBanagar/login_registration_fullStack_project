@@ -21,11 +21,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "docs",
+            
             "index": "src/index.html",
-            "browser": "src/main.ts",
+            "main": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -43,6 +44,7 @@
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
+          
           },
           "configurations": {
             "production": {
@@ -58,9 +60,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all",
-               "baseHref": "/login_registration_application/"
-            },
+              "outputHashing": "all"
+                          },
             "development": {
               "optimization": false,
               "extractLicenses": false,
