@@ -1,0 +1,11 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    border: 1px solid;
+    height: 100vh;
+}
+
+h2 {
+    padding: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.navbar {
+  padding: 15px;
+  /*for weight*/
+  background-color: pink;
+  justify-content: flex-end;
+  /*buttons right sides */
+  gap: 20px;
+  /* gap betwwen buttons*/
+  border: 1px solid;
+}
+
+h1 {
+  justify-content: flex-start;
+}
+
+
+h2 {
+  margin-top: 100px;
+}
